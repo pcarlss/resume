@@ -2,14 +2,34 @@ body {
 	/*font-family: 'Comfortaa', sans-serif;*/
 	background-color: #ECF3FF;
 	font-family: 'Rubik', sans-serif;
+	font-weight: normal;
 	
-	margin: 0px;
+	margin: 0;
 	color: #001253;
 }
 
+a {
+	color: #8D9EFF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+}
+
 h1 {
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 2rem;
+}
+
+
+h3 {
+	text-align: left;
 }
 
 p {
@@ -17,10 +37,11 @@ p {
 } 	
 
 hr {
-	width: 30%;
-	height:  5px;
-	background-color: #D0E2FF;
-	border: none;
+	width: 3%;
+	height:  0;
+	background-color: none;
+	border: dotted #93A0CC 4px;
+	border-bottom: none;
 }
 
 /*-----------------------------------------------------------*/
@@ -29,11 +50,11 @@ hr {
 .header {
 	background-color: #d4e6ff;
 	position: relative;
-	padding-top:	40px;
+	padding-top: 40px;
 	text-align: center;
 
 	width: 100%;
-	height: 743px;
+	height: 765px;
 }
 
 .middle-container {
@@ -44,7 +65,7 @@ hr {
 
 .profile {
 	position: relative;
-	margin: 100px auto 130px auto;
+	margin: 100px auto 100px auto;
 	width: 50%;
 	text-align: center;
 }
@@ -57,7 +78,7 @@ hr {
 
 .education {
 	position: relative;
-	margin: 100px auto 130px auto;
+	margin: 100px auto 100px auto;
 	width: 50%;
 	text-align: center;
 }
@@ -70,8 +91,8 @@ hr {
 
 .skills {
 	position: relative;
-	margin: 100px auto 130px auto;
-	width: 55%;
+	margin: 100px auto 100px auto;
+	width: 50%;
 	text-align: center;
 }
 
@@ -91,9 +112,9 @@ hr {
 
 .pfp {
 	border: solid;
-	border-color: #ECF3FF;
-	border-width: 6px;
 	border-radius: 50%;
+	border-width: 10px;
+	border-color: #ADB6EA;
 
 	height: 225px;
 	width: 225px;
@@ -102,12 +123,12 @@ hr {
 .education-icon {
 	border: solid;
 	border-radius: 50%;
-	border-width: 6px;
+	border-width: 10px;
 	border-color: #8D9EFF;
 	background-color: #d4e6ff;
 
-	float: left;
-	margin-right: 30px;
+	float: right;
+	margin-left: 30px;
 	margin-bottom: 30px;
 
 	height: 225px;
@@ -117,7 +138,7 @@ hr {
 .skills-icon {
 	border: solid;
 	border-radius: 50%;
-	border-width: 6px;
+	border-width: 10px;
 	border-color: #8D9EFF;
 	background-color: #d4e6ff;
 
@@ -149,4 +170,58 @@ hr {
 
 .smallerh3 {
 	font-size: 18px;
+}
+
+.btn {
+	background: #d4e6ff;
+	background-image: -webkit-linear-gradient(top, #d4e6ff, #8D9EFF);
+	background-image: -moz-linear-gradient(top, #d4e6ff, #8D9EFF);
+	background-image: -ms-linear-gradient(top, #d4e6ff, #8D9EFF);
+	background-image: -o-linear-gradient(top, #d4e6ff, #8D9EFF);
+	background-image: linear-gradient(to bottom, #d4e6ff, #8D9EFF);
+	-webkit-border-radius: 50;
+	-moz-border-radius: 50;
+	border-radius: 50px;
+	color: #ffffff;
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+  }
+  
+  .btn:hover {
+	background: #4679cc;
+	background-image: -webkit-linear-gradient(top, #4679cc, #8D9EFF);
+	background-image: -moz-linear-gradient(top, #4679cc, #8D9EFF);
+	background-image: -ms-linear-gradient(top, #4679cc, #8D9EFF);
+	background-image: -o-linear-gradient(top, #4679cc, #8D9EFF);
+	background-image: linear-gradient(to bottom, #4679cc, #8D9EFF);
+	text-decoration: none;
+  }
+
+ .sectionHead {
+	text-align: left;
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 2rem;
+}
+
+.contact-me {
+	width: 50%;
+	margin: 100px auto 100px auto;
+	text-align: center;
+	font-weight: normal;
+}
+
+.bottom-container {
+	background-color: #d4e6ff;
+
+	padding: 50px 0 20px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	font-weight: normal;
+}
+
+.bottom-container {
+	color: #F0F4FB;
 }
