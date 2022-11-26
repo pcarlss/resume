@@ -1,0 +1,98 @@
+body {
+	/*font-family: 'Comfortaa', sans-serif;*/
+	background-color: #BCCEF8;
+	font-family: 'Rubik', sans-serif;
+	
+	margin: 0px;
+	color: #001253;
+}
+
+h1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/*-----------------------------------------------------------*/
+
+
+.header {
+	background-color: #d4e6ff;
+	padding-top: 80px;
+	position: relative;
+
+	text-align: center;
+
+	width: 100%;
+	height: 743px;
+}
+
+.icon1 {
+	position: absolute;
+	height: 350px;
+	width: 350px;
+
+	left: 350px;
+	top: 190px;
+}
+
+.icon2 {
+	position: absolute;
+	height: 300px;
+	width: 300px;
+
+	right: 360px;
+	top: 80px;
+}
+
+.txt1 {
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 70px;
+}
+
+.txt2 {
+	font-family: 'Sacramento', cursive;
+	font-size: 70px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.pfp {
+	position: absolute;
+
+	height: 150px;
+	width: 150px;
+
+	top: 20px;
+	left: 20px;
+}
+
+
+.coop {
+	text-decoration: underline;
+}
+
+.image1 {
+	margin-top: 10px;
+
+	height: 500px;
+	width: 500px;
+}
+
+.middle-container {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.profile {
+	margin-bottom: 40px;
+}
+
+.education {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.skills {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
