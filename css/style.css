@@ -12,12 +12,23 @@ h1 {
 	margin-bottom: 0px;
 }
 
+p {
+	line-height: 2rem;
+} 
+
+hr {
+	width: 80%;
+	height:  3px;
+	background-color: #d4e6ff;
+	border: none;
+}
+
 /*-----------------------------------------------------------*/
 
 
 .header {
 	background-color: #d4e6ff;
-	padding-top: 80px;
+	padding-top: 40px;
 	position: relative;
 
 	text-align: center;
@@ -26,12 +37,19 @@ h1 {
 	height: 743px;
 }
 
+.image1 {
+	margin-top: 0px;
+	
+	height: 500px;
+	width: 500px;
+}
+
 .icon1 {
 	position: absolute;
-	height: 350px;
-	width: 350px;
+	height: 150px;
+	width: 150px;
 
-	left: 150px;
+	left: 250px;
 	top: 190px;
 }
 
@@ -44,41 +62,53 @@ h1 {
 	top: 80px;
 }
 
+.icon3 {
+	border: solid;
+	border-radius: 50%;
+	position: absolute;
+	height: 250px;
+	width: 250px;
+
+	left: 160px;
+	top: 540px;
+}
+
+.icon4 {
+	border: solid;
+	border-radius: 50%;
+	position: absolute;
+	height: 250px;
+	width: 250px;
+
+	right: 160px;
+	top: 865px;
+}
+
 .txt1 {
 	font-family: 'Comfortaa', sans-serif;
-	font-size: 70px;
+	font-size: 3.75rem;
+	font-weight: normal;
 }
 
 .txt2 {
 	font-family: 'Sacramento', cursive;
-	font-size: 70px;
+	font-size: 3.75rem;
 	margin-top: 10px;
 	margin-bottom: 0px;
 }
 
 .pfp {
-	position: absolute;
-
-	height: 150px;
-	width: 150px;
-
-	top: 20px;
-	left: 20px;
+	border: solid 6px;
+	border-color: #d4e6ff;
+	border-radius: 50%;
 }
-
 
 .coop {
 	text-decoration: underline;
 }
 
-.image1 {
-	margin-top: 10px;
-
-	height: 500px;
-	width: 500px;
-}
-
 .middle-container {
+	position: relative;
 	margin-top: 50px;
 	text-align: center;
 }
@@ -95,4 +125,10 @@ h1 {
 .skills {
 	margin-top: 40px;
 	margin-bottom: 40px;
+}
+
+.aboutMe {
+	width: 50%;
+	margin: auto;
+	text-align: left;
 }
