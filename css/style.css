@@ -1,6 +1,6 @@
 body {
 	/*font-family: 'Comfortaa', sans-serif;*/
-	background-color: #BCCEF8;
+	background-color: #ECF3FF;
 	font-family: 'Rubik', sans-serif;
 	
 	margin: 0px;
@@ -13,13 +13,13 @@ h1 {
 }
 
 p {
-	line-height: 2rem;
-} 
+	line-height: 2.5rem;
+} 	
 
 hr {
-	width: 80%;
-	height:  3px;
-	background-color: #d4e6ff;
+	width: 30%;
+	height:  5px;
+	background-color: #D0E2FF;
 	border: none;
 }
 
@@ -28,14 +28,59 @@ hr {
 
 .header {
 	background-color: #d4e6ff;
-	padding-top: 40px;
 	position: relative;
-
+	padding-top:	40px;
 	text-align: center;
 
 	width: 100%;
 	height: 743px;
 }
+
+.middle-container {
+	position: relative;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.profile {
+	position: relative;
+	margin: 100px auto 130px auto;
+	width: 50%;
+	text-align: center;
+}
+
+.aboutMe-row {
+	height: auto;
+	width: auto;
+	text-align: justify;
+}
+
+.education {
+	position: relative;
+	margin: 100px auto 130px auto;
+	width: 50%;
+	text-align: center;
+}
+
+.education-row {
+	height: auto;
+	width: auto;
+	text-align: justify;
+}
+
+.skills {
+	position: relative;
+	margin: 100px auto 130px auto;
+	width: 55%;
+	text-align: center;
+}
+
+.skills-row {
+	height: auto;
+	width: auto;
+	text-align: justify;
+}
+
 
 .image1 {
 	margin-top: 0px;
@@ -44,44 +89,45 @@ hr {
 	width: 500px;
 }
 
-.icon1 {
-	position: absolute;
-	height: 150px;
-	width: 150px;
+.pfp {
+	border: solid;
+	border-color: #ECF3FF;
+	border-width: 6px;
+	border-radius: 50%;
 
-	left: 250px;
-	top: 190px;
+	height: 225px;
+	width: 225px;
 }
 
-.icon2 {
-	position: absolute;
-	height: 300px;
-	width: 300px;
-
-	right: 160px;
-	top: 80px;
-}
-
-.icon3 {
+.education-icon {
 	border: solid;
 	border-radius: 50%;
-	position: absolute;
-	height: 250px;
-	width: 250px;
+	border-width: 6px;
+	border-color: #8D9EFF;
+	background-color: #d4e6ff;
 
-	left: 160px;
-	top: 540px;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+
+	height: 225px;
+	width: 225px;
 }
 
-.icon4 {
+.skills-icon {
 	border: solid;
 	border-radius: 50%;
-	position: absolute;
-	height: 250px;
-	width: 250px;
+	border-width: 6px;
+	border-color: #8D9EFF;
+	background-color: #d4e6ff;
 
-	right: 160px;
-	top: 865px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+
+	float: right;
+
+	height: 225px;
+	width: 225px;
 }
 
 .txt1 {
@@ -97,38 +143,10 @@ hr {
 	margin-bottom: 0px;
 }
 
-.pfp {
-	border: solid 6px;
-	border-color: #d4e6ff;
-	border-radius: 50%;
-}
-
 .coop {
 	text-decoration: underline;
 }
 
-.middle-container {
-	position: relative;
-	margin-top: 50px;
-	text-align: center;
-}
-
-.profile {
-	margin-bottom: 40px;
-}
-
-.education {
-	margin-top: 40px;
-	margin-bottom: 40px;
-}
-
-.skills {
-	margin-top: 40px;
-	margin-bottom: 40px;
-}
-
-.aboutMe {
-	width: 50%;
-	margin: auto;
-	text-align: left;
+.smallerh3 {
+	font-size: 18px;
 }
