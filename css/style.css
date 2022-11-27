@@ -54,7 +54,7 @@ hr {
 	text-align: center;
 
 	width: 100%;
-	height: 765px;
+	height: 775px;
 }
 
 .middle-container {
@@ -102,6 +102,18 @@ hr {
 	text-align: justify;
 }
 
+.project {
+	position: relative;
+	margin: 100px auto 100px auto;
+	width: 50%;
+	text-align: center;
+}
+
+.project-row {
+	height: auto;
+	width: auto;
+	text-align: justify;
+}
 
 .image1 {
 	margin-top: 0px;
@@ -136,6 +148,22 @@ hr {
 }
 
 .skills-icon {
+	border: solid;
+	border-radius: 50%;
+	border-width: 10px;
+	border-color: #8D9EFF;
+	background-color: #d4e6ff;
+
+	margin-left: 30px;
+	margin-bottom: 30px;
+
+	float: right;
+
+	height: 225px;
+	width: 225px;
+}
+
+.project-icon {
 	border: solid;
 	border-radius: 50%;
 	border-width: 10px;
@@ -224,4 +252,16 @@ hr {
 
 .bottom-container {
 	color: #F0F4FB;
+}
+
+.contrast-text {
+	color: #8D9EFF;
+}
+
+.project-link {
+	color: #001253;
+}
+
+.project-link:hover {
+	color: #8D9EFF;
 }
